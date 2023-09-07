@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family:  "Mulish", sans-serif !important;
+  }
+  headrer{
+    top: 0;
+  }
+  #main{
+    width: 90%;
+    margin: auto;
+  }
+  #navbar ul li{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .nav-link{
+    color: black
+  }
+  .footer-container{
+    background-color: black;
+   
+  }
+  .card a{
+    width: 160px;
+    word-spacing: 5px;
+    font-size: 8px;
+  }
+  .card p{
+    font-size: 10px;
+  }
+  .card h5{
+    font-size:20px ;
+    font-weight: bold;
+  }
+  .ser{
+    font-weight: bold;
+  }
+  .card button{
+    border-radius: 2px;
+    outline: none;
+    background-color:#f6f5f3;
+  } 
+  
+  .navbar{
+    padding: 0;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  img{
+    height: 50px;
+    margin-left:105px;
+  }
+  .navbar-brand{
+    font-weight: bold;
+  }
+  .container{
+    
+    width: 100%;
+  }
+  #head1{
+    font-size:45px ;
+    font-weight: bold;
+    padding-top: 120px;
+  
+  }
+  #head2{
+    padding-top:70px;
+    font-size: 25px;
+    font-weight:400;
+  }
+  #head3{
+    padding-top:90px;
+    font-size:38px;
+    font-weight:700;
+    padding-bottom: 90px;
+  
+
+  }
+  #btn1{
+    text-align: center;
+    margin-top: 20px;
+  }
+ #head4{
+  font-size: 50px;
+ }
+ .li-container{
+  margin-top: 40px;
+  padding-top: 25px;
+ }
+ .container{
+  background-image: url(picture.jpg);
+  background-repeat:no-repeat;
+ }
+.card-title{
+  font-size: 17px;
+}
+#name1::first-letter{
+  color:blue;
+}
+#name1{
+  font-size: 20px;
+}
+#name2{
+  color: blue;
+  font-size: 18px;
+
+}
+
+@media screen and (max-width: 500px) {
+  #card1{
+    width: 15rem;
+    border-width: thick;
+    margin-left: 50px;
+    margin-top: 100px;
+    border-color: black;
+    
+  }
+}
